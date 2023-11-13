@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+.est, .rus {
+    height: 200px;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.est {
+    background-color: rgb(41, 8, 8);
+}
+
+.rus {
+    background-color: rgb(8, 10, 29);
+}
