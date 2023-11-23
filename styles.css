@@ -6,9 +6,16 @@ body {
 }
 
 .est, .rus {
-    height: 200px;
-    padding: 100px;
     margin: 0 auto;
+}
+
+.est {
+	padding-top: 40vh;
+	padding-bottom: 1em;
+}
+.rus {
+	padding-top: 1em;
+	padding-bottom: 40vh;
 }
 
 .est {
