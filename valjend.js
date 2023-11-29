@@ -25,5 +25,5 @@ const dictionary = {
 	"kokku saama":"собраться",
     "üles leidma":"находить",
 	"maha võtma":"снимать, сбавлять",
-	
+	"ole lahke":"будь добр",
 }
