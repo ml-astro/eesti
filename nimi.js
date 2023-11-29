@@ -178,7 +178,7 @@ const dictionary = {
 	"kilekaane":"обложка",
 	"joonlaud":"линейка",
 	"auguraud":"дырокол",
-	"joon":"линия",,
+	"joon":"линия",
 	"märkmepaber":"бумага для заметок",
 	"olukord":"положение, состояние, обстановка",
 	"nähtavus":"видимость",
