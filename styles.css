@@ -2,7 +2,7 @@ body {
     text-align: center;
     color: white;
     font-size: x-large;
-    border: 2px solid black;
+	background-color: rgb(8, 10, 29);
 }
 
 .est, .rus {
@@ -13,16 +13,18 @@ body {
 	padding-top: 40vh;
 	padding-bottom: 1em;
 	text-transform: uppercase;
-    background-color: rgb(41, 8, 8);
 }
 .rus {
 	padding-top: 1em;
 	padding-bottom: 40vh;
 	text-transform: uppercase;
-    background-color: rgb(8, 10, 29);
 }
 
 td {
 	border-bottom: 1px solid white;
 	vertical-align: top;
 }
+
+table {
+	width: 100%;
+}9
