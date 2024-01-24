@@ -1,38 +1,35 @@
-const wordCount = Object.keys(dictionary).length
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+  while (currentIndex > 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+  return array;
+}
+
+function newGame(){
+	shuffle(dictionary)
+	nextMove()
+}
+
+var position = 0
 var isTranslated=false
-const wordArray=[]
-let positions = []
-
-for (let index = 0; index < wordCount; index++) {
-    positions.push(index);
-}
-
-shuffleArray(positions)
-
-function shuffleArray(positions) {
-    for (var i = positions.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = positions[i];
-        positions[i] = positions[j];
-        positions[j] = temp;
-    }
-}
-
-let position = 0
 
 function nextMove(){
+	let text = dictionary[position] + ''
+	let translations = text.split(" - ")		
+	document.getElementById("est").textContent=translations[0];
+	document.getElementById('rus').textContent=translations[1];    
     if(!isTranslated){
-        document.getElementById("est").textContent=(Object.keys(dictionary)[positions[position]]).toUpperCase();
-        document.getElementById('rus').textContent=Object.values(dictionary)[positions[position]].toUpperCase();
-        document.getElementById('est').style.color='transparent'
+	    document.getElementById('est').style.color='transparent'
         isTranslated=true;
     }
     else{
-        document.getElementById("est").textContent=(Object.keys(dictionary)[positions[position]]).toUpperCase();
-        document.getElementById('rus').textContent=Object.values(dictionary)[positions[position]].toUpperCase();
         document.getElementById('est').style.color='white'
         isTranslated=false;
-        if(position==positions.length-1){
+        if(position==dictionary.length-1){
             position=0
         }
         else {

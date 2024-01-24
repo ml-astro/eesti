@@ -12,10 +12,12 @@ body {
 .est {
 	padding-top: 40vh;
 	padding-bottom: 1em;
+	text-transform: uppercase;
 }
 .rus {
 	padding-top: 1em;
 	padding-bottom: 40vh;
+	text-transform: uppercase;
 }
 
 .est {
