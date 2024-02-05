@@ -22,12 +22,8 @@ function nextMove(){
 	let translations = text.split(" - ")		
 	document.getElementById("est").textContent=translations[0];
 	document.getElementById('rus').textContent=translations[1];    
-    if(!isTranslated){
-	    document.getElementById('est').style.color='transparent'
-        isTranslated=true;
-    }
-    else{
-        document.getElementById('est').style.color='white'
+    if(isTranslated){
+		document.getElementById('est').style.color='black'
         isTranslated=false;
         if(position==dictionary.length-1){
             position=0
@@ -35,5 +31,11 @@ function nextMove(){
         else {
             position++
         }
+	    
     }
+    else{
+		document.getElementById('est').style.color='transparent'
+        isTranslated=true;
+    }
+	
 }
