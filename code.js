@@ -19,9 +19,15 @@ var isTranslated=false
 
 function nextMove(){
 	let text = dictionary[position] + ''
-	let translations = text.split(" - ")		
-	document.getElementById("est").textContent=translations[0];
-	document.getElementById('rus').textContent=translations[1];    
+	let translations = text.split(" - ")
+	if(translations.length == 2){	
+		document.getElementById("est").textContent=translations[0].trim();
+		document.getElementById('rus').textContent=translations[1].trim();
+	}
+	if(translations.length == 3){
+		document.getElementById("est").textContent=translations[1].trim();
+		document.getElementById('rus').textContent=translations[2].trim();
+	}
     if(isTranslated){
 		document.getElementById('est').style.color='black'
         isTranslated=false;
