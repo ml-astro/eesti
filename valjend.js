@@ -2,6 +2,7 @@ const dictionary = [
 	["aega kinni panna - забронировать время, записаться"],
 	["ajasin segamini - перепутал"],
 	["asju ajama - по делам"],
+	["astu minu poolt läbi - зайди ко мне"],
 	["ausalt öeldes - честно говоря"],
 	["ei lähe käima - не работает"],
 	["grippi jääma - заболеть"],
