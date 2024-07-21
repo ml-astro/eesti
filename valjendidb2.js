@@ -132,7 +132,7 @@ const dictionary = [
 ["Millise ametiga neist saaksid ise kõige paremini hakkama? - С какой профессией ты бы лучше всего справился?"],
 ["Leidke igas töö kolm eelist ja kolm puudust - Найдите три преимущества и три недостатка а каждой работе."],
 
-["See toimub aastaringselt - Это происходит круглый год."],
+/*["See toimub aastaringselt - Это происходит круглый год."],
 ["Mille kohta arutlus käib? - О чем идет обсуждение?"],
 ["Alati leidub erandeid - Всегда есть исключения."],
 ["See, mis lähedal, ei ole võib-olla inimese jaoks huvitav või õige, seepärast tuleb ise ettevõtlik olla - То, что близко, может не быть интересным или неподходящим для человека, поэтому вы должны быть предприимчивыми."],
@@ -955,5 +955,5 @@ const dictionary = [
 ["Kõik rääkisid omavahel, aga üks õpilane jäi kõrvale - Все говорили между собой, но один ученик остался в стороне."],
 ["Kätte on jõudnud suvi - Настало лето."],
 ["Andeks anda on parem kui kätte maksta - Лучше простить, чем отомстить."],
-["Võta kätte ja hakka õppima! - Возьмись за учебу!"],
+["Võta kätte ja hakka õppima! - Возьмись за учебу!"],*/
 ]
