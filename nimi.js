@@ -385,7 +385,7 @@ const dictionary = [
 	["lubadus - обещание"],
 	["lugeja - читатель"],
 	["lugu - рассказ, история"],
-//	["luik - лебедь"],
+	["luik - лебедь"],
 	["lukk - замок"],
 	["lukksepp - слесарь"],
 //	["lumehelves - снежинка"],
