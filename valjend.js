@@ -1,6 +1,10 @@
 const dictionary = [
 	["See on liik - Это уже слишком"],
+	["rahvusvaheline kosmosejaam - МКС"],
 	["Jala käima - Ходить пешком"],
+	["läheb vaja - понадобится"],
+	["ega sulle ei meeldi - тебе не нравится?/нравится ли тебе?"],
+	["meil on palju ühist - у нас много общего"],
 	["Läks puruks - Вдребезги"],
 	["Märg nagu kass - мокрый как кошка"],
 	["Puhkamist alustama - начать отпуск"],
